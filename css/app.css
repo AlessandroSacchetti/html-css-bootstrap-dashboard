@@ -1,49 +1,87 @@
 /* my css -if any is needed- */
+.table-style-1 {
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    border-style: hidden;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    border-bottom: 2px;
+}
+
+.padding-right-1 {
+    margin-right: 5px;
+}
+
+.text-lg {
+    font-size: 30px;
+}
+
+table {
+    padding: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233, 233, 233);
+}
+
+.row-1 {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
 .logo-style-pers {
     max-width: 60px;
 }
 
-.inline-block{
+.inline-block {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.padding-1{
+.padding-1 {
     padding: 10px;
 }
-.padding-2{
+
+.padding-2 {
     padding: 20px;
 }
-.padding-3{
+
+.padding-3 {
     padding: 30px;
 }
-.padding-4{
+
+.padding-4 {
     padding: 40px;
 }
-.padding-5{
+
+.padding-5 {
     padding: 50px;
 }
 
-li>p{
+li>p {
     display: inline-block;
     margin: 2px;
     padding: 2px;
     text-align: center;
 
 }
-.margin-1{
+
+.margin-1 {
     margin: 15px;
     border-radius: 10px;
 }
 
-.margin-bot{
-    margin-bottom: 5px;
+.margin-bot {
+    margin-bottom: 20px;
 }
 
-.padding0{
+.padding-top-bot-02 {
     padding-top: 2px;
     padding-bottom: 2px;
     border-bottom-style: solid;
