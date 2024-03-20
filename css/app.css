@@ -25,6 +25,10 @@ tr:nth-child(even) {
     background-color: rgb(233, 233, 233);
 }
 
+td:first-child {
+    padding-left: 20px;
+}
+
 .row-1 {
     border-bottom: 2px;
     border-bottom-style: solid;
