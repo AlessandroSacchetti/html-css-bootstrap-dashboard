@@ -91,3 +91,8 @@ li>p {
     border-bottom-style: solid;
     line-height: 2px;
 }
+
+.personal-space {
+    display: flex;
+    justify-content: flex-end;
+}
