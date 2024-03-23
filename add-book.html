@@ -51,7 +51,32 @@
     <main>
         <div class="container pt-5">
             <div class="row">
-                <div class="col">Uh Oh! work in progress!</div>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputTitle4" class="form-label">Titolo *</label>
+                        <input type="title" class="form-control" id="inputTitle4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputAuthor4" class="form-label">Autore *</label>
+                        <input type="author" class="form-control" id="inputAuthor4">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputDate4" class="form-label">Data di Pubblicazione</label>
+                        <input type="date" class="form-control" id="inputDate4">
+                    </div>
+                    <div class="col-10">
+                        <label for="inputDescription" class="form-label">Descrizione</label>
+                        <input type="text" class="form-control" id="inputDescription" placeholder="C'era una volta...">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputGenre" class="form-label">Genere</label>
+                        <input type="text" class="form-control" id="inputGenre">
+                    </div>
+                    <div class="col-md-6 personal-space mt-5">
+                        <input class="btn btn-danger me-2" type="reset" value="Annulla">
+                        <input class="btn btn-success" type="submit" value="Crea">
+                    </div>
+                </form>
             </div>
         </div>
     </main>
